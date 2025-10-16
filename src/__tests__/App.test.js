@@ -1,4 +1,4 @@
-require("@testing-library/jest-dom"); // ✅ CommonJS works in CodeGrade/Jest setup
+import "@testing-library/jest-dom"; // ✅ CommonJS works in CodeGrade/Jest setup
 import { render, screen } from "@testing-library/react";
 import App from "../components/App";
 
